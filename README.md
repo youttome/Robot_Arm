@@ -86,7 +86,7 @@ arm_control                joint_trajectory_controller/JointTrajectoryController
 ros2 launch arduino_moveit moveit.launch.py
 ```
 
-When RViz opens, load the provided setting:
+When RViz opens, load the provided:
 
 ```text
 src/arduino_moveit/config/moveit.rviz
