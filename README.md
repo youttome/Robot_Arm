@@ -33,7 +33,7 @@ https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.htm
 Clone the repository and build the workspace:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/youttome/Robot_Arm.git
 cd Robot_Arm
 
 source /opt/ros/lyrical/setup.bash
