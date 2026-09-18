@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduino_robot">
+    
+        <gazebo>
+                <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+                    <parameters>$(find arduino_controller)/config/arduino_Control.yaml</parameters>
+                </plugin>
+        </gazebo>
+</robot>

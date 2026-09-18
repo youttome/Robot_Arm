@@ -1,0 +1,6 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: arduino_model
+    relative_path: urdf/model_gazebo.urdf.xacro
+  SRDF:
+    relative_path: config/arduino_move.srdf
